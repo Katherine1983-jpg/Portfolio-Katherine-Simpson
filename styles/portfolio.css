@@ -39,3 +39,34 @@ p {
   padding: 160px 20px;
   text-align: center;
 }
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 860px) {
+  h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .btn-outline-light {
+    width: 36%;
+  }
+}
