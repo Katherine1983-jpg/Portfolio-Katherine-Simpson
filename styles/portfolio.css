@@ -1,11 +1,43 @@
+:root {
+  --heading-font-family: "Dr Sugiyama", cursive;
+  --default-font-family: "Josefin Sans", sans-serif;
+  --default-font-color: #ffffff;
+  --background-color: #202020;
+}
+
+body {
+  background: var(--background-color);
+}
+
 h1 {
-  font-family: "Dr Sugiyama", cursive;
+  font-family: var(--heading-font-family);
+  color: var(--default-font-color);
   text-align: center;
   padding: 20px;
+  font-size: 72px;
+  line-height: 84px;
 }
 
 h2 {
-  font-family: "Josefin Sans", sans-serif;
-  font-size: 18px;
+  font-family: var(--default-font-family);
+  color: var(--default-font-color);
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--default-font-color);
+  text-align: center;
+  font-family: var(--default-font-family);
+  font-size: 18px;
+}
+
+.btn-outline-light {
+  font-family: var(--default-font-family);
+}
+
+.hero {
+  padding: 160px 20px;
 }
