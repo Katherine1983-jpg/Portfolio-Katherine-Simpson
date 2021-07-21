@@ -12,16 +12,14 @@ body {
 h1 {
   font-family: var(--heading-font-family);
   color: var(--default-font-color);
-  text-align: center;
   padding: 20px;
-  font-size: 72px;
+  font-size: 86px;
   line-height: 84px;
 }
 
 h2 {
   font-family: var(--default-font-family);
   color: var(--default-font-color);
-  text-align: center;
   font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
@@ -29,7 +27,6 @@ h2 {
 
 p {
   color: var(--default-font-color);
-  text-align: center;
   font-family: var(--default-font-family);
   font-size: 18px;
 }
@@ -40,4 +37,5 @@ p {
 
 .hero {
   padding: 160px 20px;
+  text-align: center;
 }
