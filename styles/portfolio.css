@@ -45,6 +45,23 @@ p {
   flex-wrap: wrap;
 }
 
+.about-section h1 {
+  font-size: 68px;
+  padding-left: 0;
+}
+
+.about-section h2 {
+  font-size: 28px;
+}
+
+.about-section p {
+  font-size: 22px;
+}
+
+.about-section-content {
+  padding: 40px;
+}
+
 @media (max-width: 860px) {
   h1 {
     font-size: 48px;
@@ -64,5 +81,31 @@ p {
     padding: 0;
     text-align: center;
     font-size: 14px;
+  }
+
+  .about-section-content {
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-section h1 {
+    font-size: 28px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .about-section h2 {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .about-section p {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .ks-pic {
+    max-width: 50%;
+    text-align: center;
   }
 }
