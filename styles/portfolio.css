@@ -13,7 +13,7 @@ h1 {
   font-family: var(--heading-font-family);
   color: var(--default-font-color);
   padding: 20px;
-  font-size: 86px;
+  font-size: 78px;
   line-height: 84px;
 }
 
@@ -31,6 +31,14 @@ p {
   font-size: 18px;
 }
 
+a {
+  color: #ececec;
+}
+
+a:hover {
+  color: #d9dad7;
+}
+
 .btn-outline-light {
   font-family: var(--default-font-family);
 }
@@ -45,6 +53,9 @@ p {
   flex-wrap: wrap;
 }
 
+.about-h1 {
+  font-size: 64px;
+}
 .content h1 {
   padding-left: 0;
 }
