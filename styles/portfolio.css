@@ -96,16 +96,10 @@ p {
 
   .about-section h2 {
     font-size: 14px;
-    padding: 0;
   }
 
   .about-section p {
     font-size: 14px;
     padding: 0;
-  }
-
-  .ks-pic {
-    max-width: 50%;
-    text-align: center;
   }
 }
