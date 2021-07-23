@@ -45,20 +45,19 @@ p {
   flex-wrap: wrap;
 }
 
-.about-section h1 {
-  font-size: 68px;
+.content h1 {
   padding-left: 0;
 }
 
-.about-section h2 {
+.content h2 {
   font-size: 28px;
 }
 
-.about-section p {
+.content p {
   font-size: 22px;
 }
 
-.about-section-content {
+.content {
   padding: 40px;
 }
 
@@ -83,22 +82,22 @@ p {
     font-size: 14px;
   }
 
-  .about-section-content {
+  .content {
     text-align: center;
     padding: 0;
   }
 
-  .about-section h1 {
-    font-size: 28px;
+  .content-container h1 {
+    font-size: 48px;
     text-align: center;
     padding: 0;
   }
 
-  .about-section h2 {
+  .content-container h2 {
     font-size: 14px;
   }
 
-  .about-section p {
+  .content-container p {
     font-size: 14px;
     padding: 0;
   }
