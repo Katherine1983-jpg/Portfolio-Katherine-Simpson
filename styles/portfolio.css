@@ -72,6 +72,11 @@ a:hover {
   padding: 40px;
 }
 
+.navbar-brand {
+  font-family: var(--default-font-family);
+  font-weight: bolder;
+}
+
 @media (max-width: 860px) {
   h1 {
     font-size: 48px;
